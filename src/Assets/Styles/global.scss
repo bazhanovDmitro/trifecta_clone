@@ -5,8 +5,20 @@
 @font-face {
   font-family: "Helvetica-Neue-Medium";
   src: local("Helvetica-Neue-Medium"),
-   url("../Fonts/Helvetica-Neue-Medium-Extended.ttf") format("truetype");
-  }
+  url("../Fonts/Helvetica-Neue-Medium-Extended.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Helvetica-Neue";
+  src: local("Helvetica-Neue"),
+  url("../Fonts/Helvetica-Neue-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Helvetica-Neue-thin";
+  src: local("Helvetica-Neue-thin"),
+  url("../Fonts/Helvetica-Neue-UltraLight.ttf") format("truetype");
+}
   
 
 html, body, #root, .App {

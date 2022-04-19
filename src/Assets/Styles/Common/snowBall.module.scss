@@ -1,0 +1,25 @@
+@import "../colors.module.scss";
+
+.snowBall {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 275px;
+
+  a {
+    height: 250px;
+  }
+  .image {
+    height: 250px;
+    width: 250px;
+    border-radius: 100%;
+  }
+  .header3 {
+    font-size: 24px;
+    margin-bottom: 12px;
+    color: $ORANGE;
+  }
+  .text {
+    text-align: center;
+  }
+}

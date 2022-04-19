@@ -1,6 +1,75 @@
+@import "../colors.module.scss";
+
 .imageContainer {
   width: 100%;
   height: 475px;
   background-position: top;
   background-size: cover;
+}
+
+
+.container1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  max-width: 650px;
+  margin-top: 48px;
+  margin-bottom: 48px;
+  margin-left: auto;
+  margin-right: auto;
+  color: $BLACK;
+  .header1 {
+    font-family: "Helvetica-Neue";
+    font-size: 52px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .paragraph {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 16px;
+  }
+  .buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 15px;
+  }
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100px;
+  background-color: $BANNER_GRAY;
+
+  svg {
+    width: 70%;
+  }
+}
+
+.container2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 80px;
+  font-family: 'Roboto', sans-serif;
+  color: $BLACK;
+  
+  .snowBalls {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 50px;
+    width: 1000px;
+    margin-bottom: 40px;
+  }
+
+  .header2 {
+    font-size: 36px;
+    font-family: "Helvetica-Neue";
+  }
 }
