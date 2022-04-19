@@ -2,6 +2,13 @@
   margin: 0;
 }
 
+@font-face {
+  font-family: "Helvetica-Neue-Medium";
+  src: local("Helvetica-Neue-Medium"),
+   url("../Fonts/Helvetica-Neue-Medium-Extended.ttf") format("truetype");
+  }
+  
+
 html, body, #root, .App {
   height: 100%;
   width: 100%;

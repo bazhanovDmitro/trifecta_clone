@@ -6,6 +6,8 @@
   align-items: center;
   justify-content: space-between;
   height: 77px;
+  font-family: "Helvetica-Neue-Medium";
+
   @mixin group {
     display: flex;
     align-items: center;
@@ -67,6 +69,7 @@
       border: $LIGHT_GRAY 1px solid;
       outline: none;
       padding-left: 32px;
+      font-family: "Helvetica-Neue-Medium";
     }
   }
 }
