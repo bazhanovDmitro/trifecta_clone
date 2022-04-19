@@ -1,0 +1,72 @@
+@import "../Common/linkList.module.scss";
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 77px;
+  @mixin group {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+  }
+
+  .groupLeft {
+    @include group();
+  }
+  .groupRight {
+    @include group();
+    justify-content: flex-end;
+    column-gap: 15px;
+
+    .linkList {
+      a {
+        padding: 0;
+        svg {
+          padding-right: 16px;
+          padding-bottom: 5px;
+        }
+      }
+    }
+  }
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 100%;
+    
+    a {
+      height: 30px;
+    }
+  }
+  .linkList {
+    @include linkList();
+  }
+  .searchHolder {
+    position: relative;
+    max-width: 205px;
+    width: 100%;
+    .magnifier {
+      position: absolute;
+      top: 50%;
+      left: 5px;
+      transform: translateY(-50%);
+      width: 21px;
+    }
+    .input {
+      color: $BLACK;
+      width: 100%;
+      height: 33px;
+      font-size: 14px;
+      padding: 5px 10px;
+      border-radius: 18px;
+      box-sizing: border-box;
+      border: $LIGHT_GRAY 1px solid;
+      outline: none;
+      padding-left: 32px;
+    }
+  }
+}

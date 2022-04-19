@@ -1,0 +1,72 @@
+@import "../colors.module.scss";
+
+@mixin link {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  color: $BLACK;
+  white-space: nowrap;
+  font-size: 14px;
+  text-decoration: none;
+  padding: 0 10px;
+  display: flex;
+  box-sizing: border-box;
+
+  .linkHover {
+    height: 3px;
+    width: 100%;
+    background-color: $ORANGE;
+    position: absolute;
+    bottom: -7px;
+    transition: 0.35s;
+    transform-origin: left;
+    transform: scaleX(0);
+  }
+}
+
+@mixin underline {
+  &:hover {
+    .linkHover {
+      transform: scaleX(1);
+    }
+  }
+}
+
+@mixin highlite {
+  transition: 0.35s;
+  &:hover {
+    color: $ORANGE;
+    opacity: 0.5;
+  }
+}
+
+@mixin linkList {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  .link_0 {
+    @include link();
+  }
+  .highlited_0 {
+    @include link();
+  }
+  .link_1 {
+    @include link();
+    @include underline();
+  }
+  .highlited_1 {
+    @include link();
+    @include underline();
+    font-weight: 900;
+  }
+  .link_2 {
+    @include link();
+    @include highlite();
+  }
+  .highlited_2 {
+    @include link();
+    @include highlite();
+    font-weight: 900;
+  }
+}

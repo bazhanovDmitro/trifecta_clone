@@ -1,0 +1,30 @@
+<svg width="28px" height="21px" viewBox="0 0 28 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+      <polygon id="path-1" points="0 0 2.96108937 0 2.96108937 2.96087132 0 2.96087132">
+      </polygon>
+      <polygon id="path-3" points="3.87330733e-15 0 2.95999913 0 2.95999913 2.96087132 3.87330733e-15 2.96087132">
+      </polygon>
+  </defs>
+  <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+      <g id="Group-2" transform="translate(-265.500000, -4.000000)">
+          <g id="Group-9" transform="translate(266.394088, 5.000000)">
+              <polyline id="Stroke-1" stroke="#263746" stroke-width="1.505" stroke-linecap="round" stroke-linejoin="round" points="-3.63122562e-16 0 3.70463243 0 7.71780251 16.5552806 21.7360967 16.616334 25.8114104 4.17016452 11.6699192 4.17016452">
+              </polyline>
+              <g id="Group-5" transform="translate(8.069078, 17.039129)">
+                  <mask id="mask-2" fill="white">
+                      <use xlink:href="#path-1"></use>
+                  </mask>
+                  <g id="Clip-4"></g>
+                  <path d="M2.96108937,1.48054468 C2.96108937,2.298224 2.29931424,2.96108937 1.48163492,2.96108937 C0.663955605,2.96108937 0,2.298224 0,1.48054468 C0,0.662865366 0.663955605,0 1.48163492,0 C2.29931424,0 2.96108937,0.662865366 2.96108937,1.48054468" id="Fill-3" fill="#263746" mask="url(#mask-2)"></path>
+              </g>
+              <g id="Group-8" transform="translate(18.930039, 17.039129)">
+                  <mask id="mask-4" fill="white">
+                      <use xlink:href="#path-3"></use>
+                  </mask>
+                  <g id="Clip-7"></g>
+                  <path d="M2.95999913,1.48054468 C2.95999913,2.298224 2.298224,2.96108937 1.48054468,2.96108937 C0.662865366,2.96108937 3.87330733e-15,2.298224 3.87330733e-15,1.48054468 C3.87330733e-15,0.662865366 0.662865366,0 1.48054468,0 C2.298224,0 2.95999913,0.662865366 2.95999913,1.48054468" id="Fill-6" fill="#263746" mask="url(#mask-4)"></path>
+              </g>
+          </g>
+      </g>
+  </g>
+</svg>
