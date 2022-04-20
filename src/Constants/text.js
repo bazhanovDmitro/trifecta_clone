@@ -17,3 +17,11 @@ export const SNOWBALL_2_TEXT =
 export const SNOWBALL_3_HEADER = "Track your Progress";
 export const SNOWBALL_3_TEXT =
   "Get personalized fitness goals and daily tracking in the app";
+
+export const LANDING_COUNTER_HEADER =
+  "You're only one decision away from an entirely different life";
+export const LANDING_COUNTER_TEXT =
+  "Trifecta has helped hundreds of thousands of customers and top athletes lose weight, gain muscle, and improve their health.";
+export const POUNDS_LOST = "POUNDS LOST";
+export const GALLERY_HEADER = "Real people, real transformations";
+export const GET_STARTED = "Get Started Now";

@@ -1,0 +1,109 @@
+@import "../colors.module.scss";
+
+.gallery {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  margin-bottom: 20px;
+  &:hover {
+    .arrowLeft {
+      opacity: 1;
+    }
+    .arrowRight {
+      opacity: 1;
+    }
+  }
+
+  .switcher {
+    display: flex;
+    flex-direction: row;
+    column-gap: 4px;
+    position: absolute;
+    bottom: 0px;
+    @mixin buble {
+      width: 8px;
+      height: 8px;
+      background-color: transparent;
+      border: solid $DARK_BLUE 1px;
+      border-radius: 100%;
+      cursor: pointer;
+    }
+    .buble {
+      @include buble();
+    }
+    .activeBuble {
+      @include buble();
+      background-color: $DARK_BLUE;
+    }
+  }
+
+  @mixin arrow {
+    position: absolute;
+    top: 50%;
+    fill: $ORANGE;
+    opacity: 0;
+    transition: 0.4s;
+  
+    svg {
+      width: 50px;
+      height: 50px;
+      cursor: pointer;
+    }
+  }
+  .arrowLeft {
+    left: 0px;
+    @include arrow();
+    transform: translateY(-50%);
+  }
+  .arrowRight {
+    @include arrow();
+    right: 0px;
+    top: 49%;
+    transform: translateY(-50%) rotate(180deg);
+  }
+  .holder {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+    max-width: 1010px;
+    margin-bottom: 50px;
+    overflow: hidden;
+    .container {
+      position: relative;
+      display: flex;
+      flex-direction: row;
+      transition: 0.35s ease-in;
+      .item {
+        display: flex;
+        flex-direction: row;
+        column-gap: 60px;
+        width: 1010px;
+        align-items: center;
+        .image {
+          width: 400px;
+          height: 400px;
+        }
+        .textSection {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          .text {
+            text-align: center;
+            margin-bottom: 7px;
+          }
+          .name {
+            font-weight: 600;
+            margin-bottom: 20px;
+          }
+          .header {
+            font-size: 24px;
+            color: $ORANGE;
+          }
+        }
+      }
+    }
+  }
+}
