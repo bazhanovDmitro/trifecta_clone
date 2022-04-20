@@ -127,8 +127,41 @@ p {
   flex-direction: column;
   align-items: center;
   font-family: 'Roboto', sans-serif;
+  margin-bottom: 100px;
   .header {
     font-size: 32px;
     margin-bottom: 30px;
+  }
+}
+
+.teamBanner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 30px;
+  flex-direction: row;
+  font-family: 'Roboto', sans-serif;
+  background-color: $BUTTON_ORANGE;
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 120px;
+
+  .header {
+    position: relative;
+    display: block;
+    width: 200px;
+    margin-top: 50px;
+    margin-right: 70px;
+    color: $WHITE;
+    font-size: 32px;
+    height: fit-content;
+    span {
+      position: absolute;
+      font-weight: normal;
+      bottom: -35px;
+      left: 0;
+      width: 100%;
+      font-size: 16px;
+    }
   }
 }

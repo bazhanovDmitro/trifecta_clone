@@ -14,3 +14,15 @@ export const headerUserLinks = [
   { text: <Profile />, link: `user/profile` },
   { text: <Cart />, link: `user/cart` },
 ];
+
+export const footerLink = [
+  { text: `Our Story`, link: `/story` },
+  { text: `Nutrition And Fitness`, link: `/nutrition` },
+  { text: `Trifecta Health`, link: `/healt` },
+  { text: `Meals`, link: `/meals` },
+  { text: `Partners`, link: `/partners` },
+  { text: `Testimonials`, link: `/what-is-that` },
+  { text: `How It Works`, link: `/how-it-works` },
+  { text: `Press`, link: `/press` },
+  { text: `Careers`, link: `/careers` },
+];

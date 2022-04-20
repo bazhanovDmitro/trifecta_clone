@@ -25,3 +25,8 @@ export const LANDING_COUNTER_TEXT =
 export const POUNDS_LOST = "POUNDS LOST";
 export const GALLERY_HEADER = "Real people, real transformations";
 export const GET_STARTED = "Get Started Now";
+export const ORANGE_BANNER_TEXT =
+  "Meal plans built by experts and backed by science";
+export const MEET_TEAM_TEXT = "Meet our team of experts";
+export const ABOUT_PRODUCT = "ABOUT TRIFECTA";
+export const CONTACT_US = "CONTACT US";

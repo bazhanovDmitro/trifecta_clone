@@ -1,0 +1,25 @@
+@import "../colors.module.scss";
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: $WHITE;
+  max-height: 250px;
+  max-width: 250px;
+  .image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .name {
+    margin-top: 20px;
+  }
+  .position {
+    text-align: center;
+    font-size: 12px;
+    font-weight: 300;
+    margin-top: 5px;
+    width: 80%;
+  }
+}

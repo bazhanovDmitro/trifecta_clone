@@ -3,8 +3,9 @@ import Logo from "../../Components/Logo";
 import { headerLinks, headerUserLinks } from "../../Utils/links";
 import { UNDERLINE_EFFECT } from "../../Utils/codes";
 import Search from "../../Components/Search";
+import style from "../../Assets/Styles/Landing/header.module.scss";
 
-export default function Header({ style }) {
+export default function Header() {
   return (
     <header className={style.header}>
       <div className={style.groupLeft}>
