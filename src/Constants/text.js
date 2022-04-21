@@ -30,3 +30,6 @@ export const ORANGE_BANNER_TEXT =
 export const MEET_TEAM_TEXT = "Meet our team of experts";
 export const ABOUT_PRODUCT = "ABOUT TRIFECTA";
 export const CONTACT_US = "CONTACT US";
+export const JOIN_COMMUNITY = "JOIN OUR COMMUNITY";
+export const JOIN_COMMUNITY_TEXT =
+  "Sign up now and get expert nutrition advice delivered to your inbox weekly!";

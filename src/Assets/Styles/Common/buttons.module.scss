@@ -10,7 +10,7 @@
   cursor: pointer;
 }
 
-.orange {
+@mixin orange {
   @include button();
   color: $WHITE;
   background-color: $BUTTON_ORANGE;
@@ -20,7 +20,7 @@
   }
 }
 
-.darkBlue {
+@mixin darkBlue {
   @include button();
   color: $DARK_BLUE;
   border: $DARK_BLUE 2px solid;
@@ -31,4 +31,12 @@
     background-color: $DARK_BLUE;
     color: $WHITE;
   }
+}
+
+.orange {
+  @include orange();
+}
+
+.darkBlue {
+  @include darkBlue();
 }
